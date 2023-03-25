@@ -50,9 +50,11 @@ http://127.0.0.1:8090/api/
 
 ### Default Admin UI access
 
-Create an admin account here:
 http://127.0.0.1:8090/_/
 
+email: admin@example.com 
+
+password: thisispassword
 
 
 ### API rules and docs 
