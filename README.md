@@ -4,11 +4,11 @@
 
 **_Requires npm to be installed beforehand_**
 
-### installing dependencies
+### Installing dependencies
 
 In the root directory of the app use `npm i` to install the dependencies
 
-### starting the NEXT/React app
+### Starting the NEXT/React app
 
 In the root directory of the app use `npm run dev` to start the NEXT/React app.
 
@@ -17,6 +17,7 @@ By default the app will run on: `http://localhost:3000/`
 ## Startup the database
 
 Pocketbase is included in the project for _Windows_ and _Linux_
+
 Check below for instructions to include pocketbase for _Mac_
 
 ### On Windows
@@ -49,33 +50,33 @@ http://127.0.0.1:8090/api/
 
 ### Default Admin UI access
 
+Create an admin account here:
 http://127.0.0.1:8090/_/
 
-email: `admin@example.com`
-password: `thisispassword`
+
 
 ### API rules and docs 
 
 API request and response details can be found in the admin panel
 
 GET
-/api/collections/notes/records
+`/api/collections/notes/records`
 
 GET
-/api/collections/notes/records/:id
+`/api/collections/notes/records/:id`
 
 POST
-/api/collections/notes/records
+`/api/collections/notes/records`
 title: String - optional
 content: String - optional
 
 PATCH
-/api/collections/notes/records/:id
+`/api/collections/notes/records/:id`
 title: String - optional
 content: String - optional
 
 DELETE
-/api/collections/notes/records/:id
+`/api/collections/notes/records/:id`
 
 
 
